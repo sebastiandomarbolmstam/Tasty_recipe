@@ -1,0 +1,90 @@
+body {
+  background-color: #00cc88;
+  font-family: 'Fondamento', cursive;
+}
+
+.last-week{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.calendar-week, .calendar-header{
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  background-color: aquamarine;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.calendar-week {
+  grid-auto-rows: 200px;
+  text-align: right;
+  border-radius: 10px;
+}
+
+.calendar-header {
+  grid-auto-rows: 50px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+.calendar-day {
+  padding: 16px;
+}
+
+.calendar-grid {
+  padding: 20px;
+  background-color: #00cc88;
+}
+
+.calendar_header {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.calendar-day {
+  border-right: 1px solid darkslategray;
+  border-top: 1px solid darkslategray;
+}
+
+.calendar-day:last-child {
+  border-right: 0;
+}
+
+.booked-day {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-auto-rows: repeat(6,1fr);
+}
+
+.number {
+  grid-column: 1 / span 5;
+  grid-row: 1;
+}
+
+.image {
+  grid-column: 3;
+  grid-row: 2 / span 4;
+}
+.picture {
+  height: auto;
+  width: 125px;
+}
+
+.image:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pancake-picture {
+  height: 130px;
+  width: auto;
+}
+
+.food-text {
+  grid-column: 3;
+  grid-row: 6;
+  text-align: center;
+}

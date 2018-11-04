@@ -1,0 +1,39 @@
+.navbar_section {
+  display: flex;
+  background-color: darkslategray;
+  height: 30px;
+}
+
+.list_elments {
+  font-family: 'Fondamento', cursive;
+  list-style-type: none;
+  margin: none;
+  padding: none;
+}
+
+.nav-link:link{
+  text-decoration: none;
+  color: darkslategray;
+  padding: 12px 20px;
+  background-color: aquamarine;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.nav-link:visited {
+  color: darkslategray;
+}
+
+.nav-link.active {
+  background-color: #00cc88;
+}
+
+.nav-link:hover {
+
+  background-color: #00cc88;
+}
+
+.nav {
+  float: left;
+  margin: none;
+}

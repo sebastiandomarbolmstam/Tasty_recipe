@@ -1,0 +1,102 @@
+body {
+  background-color: #00cc88;
+  font-family: 'Fondamento', cursive;
+}
+
+#headline {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+#subline {
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.description-container {
+  display: grid;
+  grid-gap: 10px;
+  background-color: #00cc88;
+  padding: 20px;
+  justify-content: flex-start;
+}
+
+.description {
+  background-color: aquamarine;
+  align-items: center;
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.text {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.pic {
+  grid-column: 2;
+  grid-row: 1;
+  background-color: darkgoldenrod;
+}
+
+.picture {
+  height: 400px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.ingredients {
+  background-color: aquamarine;
+  grid-column: 3;
+  grid-row: 1;
+  /*border-radius: 10px;*/
+}
+
+.ingredient-list {
+  list-style-type: disc;
+  list-style-position: inside;
+  font-size: 14px;
+}
+
+.instructions {
+  background-color: aquamarine;
+  grid-column: 4;
+  grid-row: 1;
+  border-radius: 10px;
+}
+
+.instruction-list {
+  list-style-type: disc;
+  list-style-position: inside;
+  font-size: 14px;
+}
+
+.ing-li {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.ins-li {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.comments {
+  background-color: aquamarine;
+  grid-row: 2;
+  grid-column: 1 / 5;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.com-li {
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.user-li {
+  font-size: 12px;
+  font-weight: bold;
+}
