@@ -33,6 +33,8 @@ body {
 
 .calendar-day {
   padding: 16px;
+  border-right: 1px solid darkslategray;
+  border-top: 1px solid darkslategray;
 }
 
 .calendar-grid {
@@ -46,11 +48,6 @@ body {
   font-weight: bold;
 }
 
-.calendar-day {
-  border-right: 1px solid darkslategray;
-  border-top: 1px solid darkslategray;
-}
-
 .calendar-day:last-child {
   border-right: 0;
 }
@@ -58,7 +55,7 @@ body {
 .booked-day {
   display: grid;
   grid-template-columns: repeat(5,1fr);
-  grid-auto-rows: repeat(6,1fr);
+  grid-template-rows: repeat(6,1fr);
 }
 
 .number {
@@ -84,6 +81,7 @@ body {
 }
 
 .food-text {
+  background-color: aquamarine;
   grid-column: 3;
   grid-row: 6;
   text-align: center;

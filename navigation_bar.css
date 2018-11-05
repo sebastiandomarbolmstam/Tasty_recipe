@@ -7,8 +7,8 @@
 .list_elments {
   font-family: 'Fondamento', cursive;
   list-style-type: none;
-  margin: none;
-  padding: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-link:link{
@@ -35,5 +35,5 @@
 
 .nav {
   float: left;
-  margin: none;
+  margin: 0;
 }
